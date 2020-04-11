@@ -1,36 +1,26 @@
 /* ------------------
 		HOME
 ------------------ */
+section#home select{
+	background-color: rgba(255, 255, 255, 0.1);
+    color: #a1a1a1;
+    width: 100%;
+		border: 0;
+		border-radius: 0px;
+}
 
-section#home #b {
-	-webkit-animation-delay: 0.5s;
-	animation-delay: 0.5s;
-	-webkit-animation-duration: 1.5s;
-	animation-duration: 1.5s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-	-webkit-animation-name: floatUp;
-	animation-name: floatUp;
-	-webkit-animation-timing-function: cubic-bezier(0, 0.71, 0.29, 1);
-	animation-timing-function: cubic-bezier(0, 0.71, 0.29, 1);
-	border-radius: 24px;
-	display: inline-block;
-	height: 240px;
-	margin-bottom: 40px;
-	position: relative;
-	vertical-align: top;
-	width: 240px;
-	box-shadow: 0 20px 60px rgba(10, 10, 10, 0.05), 0 5px 10px rgba(10, 10, 10, 0.1), 0 1px 1px rgba(10, 10, 10, 0.2);
+section#home option{
+    color: #c25d02;
+		background-color: #a1a1a1;
+		border:0;
 }
 
 section#home div#dropzone {
-	border: 1px solid #dbdbdb;
-	background-color: rgba(0, 0, 0, 0);
-    border-color: #ff3860;
-    color: #ff3860;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.1);
+    color: #a1a1a1;
     display: none;
     width: 100%;
-    border-radius: 3px;
     box-shadow: none;
     height: 2.5em;
     -webkit-box-align: center;
@@ -41,11 +31,11 @@ section#home div#dropzone {
     padding-left: .75em;
     padding-right: .75em;
     text-align: center;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 section#home div#uploads, section#home p#tokenContainer, section#home a#panel { display: none; }
-section#home div#dropzone:hover { background-color: #ff3860; border-color: #ff3860; color: #fff; }
+section#home div#dropzone:hover { background-color: #c25d02; border-color: #c25d02; color: #fff; }
 section#home h3#maxFileSize { font-size: 14px; }
 section#home h3#links span { padding-left: 5px; padding-right: 5px; }
 section#home img.logo { height: 200px; margin-top: 20px; }
