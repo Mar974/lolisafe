@@ -1,49 +1,90 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="description" content="A pomf-like file uploading service that doesn't suck.">
-		<meta name="keywords" content="upload,lolisafe,file,images,hosting">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+	<meta name="description" content="A pomf-like file uploading service that doesn't suck.">
+	<meta name="keywords" content="upload,mar974,file,images,hosting">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<link rel="apple-touch-icon" sizes="180x180" href="https://lolisafe.moe/images/icons/apple-touch-icon.png?v=XBreOJMe24">
-		<link rel="icon" type="image/png" href="https://lolisafe.moe/images/icons/favicon-32x32.png?v=XBreOJMe24" sizes="32x32">
-		<link rel="icon" type="image/png" href="https://lolisafe.moe/images/icons/favicon-16x16.png?v=XBreOJMe24" sizes="16x16">
-		<link rel="manifest" href="https://lolisafe.moe/images/icons/manifest.json?v=XBreOJMe24">
-		<link rel="mask-icon" href="https://lolisafe.moe/images/icons/safari-pinned-tab.svg?v=XBreOJMe24" color="#5bbad5">
-		<link rel="shortcut icon" href="https://lolisafe.moe/images/icons/favicon.ico?v=XBreOJMe24">
-		<meta name="apple-mobile-web-app-title" content="lolisafe">
-		<meta name="application-name" content="lolisafe">
-		<meta name="msapplication-config" content="https://lolisafe.moe/images/icons/browserconfig.xml?v=XBreOJMe24">
-		<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://mar974.com/images/icons/apple-touch-icon.png?v=XBreOJMe24">
+	<link rel="icon" type="image/png" href="https://mar974.com/images/icons/favicon-32x32.png?v=XBreOJMe24" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://mar974.com/images/icons/favicon-16x16.png?v=XBreOJMe24" sizes="16x16">
+	<link rel="manifest" href="https://mar974.com/images/icons/manifest.json?v=XBreOJMe24">
+	<link rel="mask-icon" href="https://mar974.com/images/icons/safari-pinned-tab.svg?v=XBreOJMe24" color="#5bbad5">
+	<link rel="shortcut icon" href="https://mar974.com/images/icons/favicon.ico?v=XBreOJMe24">
+	<meta name="apple-mobile-web-app-title" content="lolisafe">
+	<meta name="application-name" content="lolisafe">
+	<meta name="msapplication-config" content="https://mar974.com/images/icons/browserconfig.xml?v=XBreOJMe24">
+	<meta name="theme-color" content="#ffffff">
 
-		<meta property="og:url" content="https://lolisafe.moe" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="lolisafe.moe | A small safe worth protecting." />
-		<meta property="og:description" content="A pomf-like file uploading service that doesn't suck." />
-		<meta property="og:image" content="http://lolisafe.moe/images/logo_square.png" />
-		<meta property="og:image:secure_url" content="https://lolisafe.moe/images/logo_square.png" />
+	<meta property="og:url" content="https://mar974.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Mar974.com | A small safe worth protecting." />
+	<meta property="og:description" content="A pomf-like file uploading service that doesn't suck." />
+	<meta property="og:image" content="http://mar974.com/images/logo_square.png" />
+	<meta property="og:image:secure_url" content="https://mar974.com/images/logo_square.png" />
 
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:title" content="lolisafe.moe | A small safe worth protecting.">
-		<meta name="twitter:description" content="A pomf-like file uploading service that doesn't suck.">
-		<meta name="twitter:image" content="https://lolisafe.moe/files/images/logo_square.png">
-		<meta name="twitter:image:src" content="https://lolisafe.moe/images/logo_square.png">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Mar974.com | A small safe worth protecting.">
+	<meta name="twitter:description" content="A pomf-like file uploading service that doesn't suck.">
+	<meta name="twitter:image" content="https://mar974.com/files/images/logo_square.png">
+	<meta name="twitter:image:src" content="https://mar974.com/images/logo_square.png">
 
-		<title>lolisafe - A small safe worth protecting.</title>
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.0/css/bulma.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
-	</head>
+	<title>Mar974 - A small safe worth protecting.</title>
+	<link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/base.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/vendor.css">
+	<script type="text/javascript" src="/js/modernizr.js"></script>
+</head>
 
-	<body>
-		<section class="hero is-fullheight has-text-centered" id="home">
-			<div class="hero-body">
+<body>
+	<!-- header
+	================================================== -->
+	<header class="main-header">
+		<a class="menu-toggle" href="#"><span>Menu</span></a>
+	</header> <!-- /header -->
+
+	<!-- navigation
+	================================================== -->
+	<nav id="menu-nav-wrap">
+
+		<h5>Site Pages</h5>
+		<ul class="nav-list">
+			<li><a href="/" title="Home">Home</a></li>
+			<li><a href="/dashboard" title="Dashboard">Dashboard</a></li>
+			<li><a href="/faq" title="FAQ">FAQ</a></li>
+			<li><a id="ShareX" href="https://mar974.com/sharex.txt">ShareX</a></li>
+			<li><a href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj" target="_blank" title="Chrome extension">Chrome extension</a></li>
+			<li><a href="https://addons.mozilla.org/en-US/firefox/addon/lolisafe/" target="_blank" title="Firefox extension">Firefox extension</a></li>
+		</ul>
+
+		<h5>Thanks</h5>
+		<p>Thank you for using this website and I hope you will find it usefull and pleasant.</p>
+		<p>Artworks by <a href="https://www.pixiv.net/en/users/11186787" title="Psi" target="_blank">Psi</a> and <a href="https://www.pixiv.net/en/users/32691695" title="k" target="_blank">k</a></p>
+		<p>Design by <a href="https://www.styleshout.com" title="StyleShout" target="_blank">StyleShout</a></p>
+
+	</nav>
+
+	<!-- main content
+	================================================== -->
+	<main id="main-404-content" class="main-content-static">
+
+		<div class="content-wrap">
+
+			<div class="shadow-overlay"></div>
+
+			<div class="main-content">
+				<div class="row">
+					<div class="col-twelve">
+				<section id="home">
 				<div class="container has-text-left">
 
-					<h2 class='subtitle'>What is lolisafe?</h2>
+					<h2 class='subtitle'>What is <a href="/">Mar974.com</a>?</h2>
 					<article class="message">
 						<div class="message-body">
-							lolisafe is an easy to use, open source and completely free file upload service. We accept your files, photos, documents, anything, and give you back a shareable link for you to send to others.
+							<a href="/">Mar974.com</a> is an easy to use, open source and completely free file upload service. We accept your files, photos, documents, anything, and give you back a shareable link for you to send to others.
 						</div>
 					</article>
 
@@ -51,6 +92,7 @@
 					<article class="message">
 						<div class="message-body">
 							Unless we receive a copyright complain or some other bullshit, we will.
+							Or unless my hard disk die like the previous one.
 						</div>
 					</article>
 
@@ -64,20 +106,32 @@
 					<h2 class='subtitle'>What are albums?</h2>
 					<article class="message">
 						<div class="message-body">
-							Albums are a simple way of sorting uploads together. Right now you can create albums through the dashboard and use them only with <a target="_blank" href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj">our chrome extension</a> which will enable you to <strong>right click -> send to lolisafe</strong> or to a desired album if you have any.
+							Albums are a simple way of sorting uploads together. You can create albums through the dashboard and use them with <a target="_blank" href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj">the Chrome extension</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/lolisafe/" target="_blank">the Firefox extension</a> which will enable you to <strong>right click -> send to lolisafe</strong> or to a desired album if you have any.
 						</div>
 					</article>
 
-					<h2 class='subtitle'>Why should I use this?</h2>
-					<article class="message">
-						<div class="message-body">
-							There are too many file upload services out there, and a lot of them rely on the foundations of pomf which is ancient. In a desperate and unsuccessful attempt of finding a good file uploader that's easily extendable, lolisafe was born. We give you control over your files, we give you a way to sort your uploads into albums for ease of access and we give you an api to use with ShareX or any other thing that let's you make POST requests. Awesome isn't it? Just like you.
-						</div>
-					</article>
-
-				</div>
 			</div>
 		</section>
 
+
+						</div> <!-- /twelve -->
+					</div> <!-- /row -->
+			</div> <!-- /main-content -->
+
+
+		</div> <!-- /content-wrap -->
+
+	</main> <!-- /main-404-content -->
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+	================================================== -->
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/plugins.js"></script>
+	<script src="/js/main.js"></script>
+
 	</body>
-</html>
+	</html>
